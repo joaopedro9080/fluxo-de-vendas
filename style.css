@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.title {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 16px; /* Fonte maior para melhor leitura */
+    margin: 20px auto; /* Centraliza na tela */
+    padding: 15px 20px; /* Melhor espaçamento interno */
+    background: linear-gradient(45deg, rgb(201, 29, 63), #ff6347); /* Gradiente mais bonito */
+    border-radius: 15px;
+    color: white; /* Texto branco para contraste */
+    min-width: 300px; /* Largura mínima */
+    max-width: 310px; /* Largura máxima */
+    min-height: 60px; /* Altura mínima */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Efeito de sombra suave */
+}
+
+
+.container {
+    display: flex;
+    overflow-x: scroll;
+    padding: 24px;
+    width: 360px;
+    height: 360px;
+    scroll-snap-type: x mandatory;
+    transition: 1s;
+    scroll-padding: 24px;
+    border-radius: 8px;
+    gap: 12px;
+    margin: 2rem auto;
+}
+
+
+
+.container .item1 {
+    flex: 0 0 100%;
+    padding: 24px;
+    border-radius: 8px;
+    scroll-snap-align: start;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(#ff00ff, #800080);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.container .item2 {
+    flex: 0 0 100%;
+    padding: 24px;
+    border-radius: 8px;
+    scroll-snap-align: start;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(#00e1ff, #00ffbf);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.container .item3 {
+    flex: 0 0 100%;
+    padding: 24px;
+    border-radius: 8px;
+    scroll-snap-align: start;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(#ffae00, #ffa600);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.container .item4 {
+    flex: 0 0 100%;
+    padding: 24px;
+    border-radius: 8px;
+    scroll-snap-align: start;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(#00dab5, #00d836);
+    color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.container .item5 {
+    flex: 0 0 100%;
+    padding: 24px;
+    border-radius: 8px;
+    scroll-snap-align: start;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(#ff0000, #f8a100);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.container .item6 {
+    flex: 0 0 100%;
+    padding: 24px;
+    border-radius: 8px;
+    scroll-snap-align: start;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(#4400ff, #008cff);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.container .item7 {
+    flex: 0 0 100%;
+    padding: 24px;
+    border-radius: 8px;
+    scroll-snap-align: start;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(#00d861, #00fff2);
+    color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.container .item8 {
+    flex: 0 0 100%;
+    padding: 24px;
+    border-radius: 8px;
+    scroll-snap-align: start;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(#ff00ff, #800080);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
